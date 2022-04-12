@@ -145,7 +145,6 @@
 		0FDEF46B27FF378300F27CB3 /* ScatterChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEF3E127FF378200F27CB3 /* ScatterChartDataProvider.swift */; };
 		0FDEF46C27FF378300F27CB3 /* BubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEF3E227FF378200F27CB3 /* BubbleChartDataProvider.swift */; };
 		0FDEF46D27FF378300F27CB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEF3E327FF378200F27CB3 /* README.md */; };
-		0FDEF47327FF3B9900F27CB3 /* SystemService in Frameworks */ = {isa = PBXBuildFile; productRef = 0FDEF47227FF3B9900F27CB3 /* SystemService */; };
 		E62CF1C727F8C00900819690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CF1C627F8C00900819690 /* AppDelegate.swift */; };
 		E62CF1C927F8C00900819690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CF1C827F8C00900819690 /* SceneDelegate.swift */; };
 		E62CF1CE27F8C00A00819690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62CF1CC27F8C00A00819690 /* Main.storyboard */; };
@@ -345,7 +344,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDEF47327FF3B9900F27CB3 /* SystemService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,7 +742,6 @@
 			);
 			name = SystemServiceApp;
 			packageProductDependencies = (
-				0FDEF47227FF3B9900F27CB3 /* SystemService */,
 			);
 			productName = DeviceInfoSwift;
 			productReference = E62CF1C327F8C00900819690 /* SystemServiceApp.app */;
@@ -776,7 +773,6 @@
 			);
 			mainGroup = E62CF1BA27F8C00900819690;
 			packageReferences = (
-				0FDEF47127FF3B9900F27CB3 /* XCRemoteSwiftPackageReference "SystemService" */,
 			);
 			productRefGroup = E62CF1C427F8C00900819690 /* Products */;
 			projectDirPath = "";
@@ -1190,25 +1186,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		0FDEF47127FF3B9900F27CB3 /* XCRemoteSwiftPackageReference "SystemService" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/zaber-textnow/SystemService.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		0FDEF47227FF3B9900F27CB3 /* SystemService */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0FDEF47127FF3B9900F27CB3 /* XCRemoteSwiftPackageReference "SystemService" */;
-			productName = SystemService;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E62CF1BB27F8C00900819690 /* Project object */;
 }
